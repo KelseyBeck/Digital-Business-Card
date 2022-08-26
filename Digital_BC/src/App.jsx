@@ -3,6 +3,14 @@ import kelsey from './SelfPortrait29-1.jpg'
 
 function App() {
 
+    function github(){
+        window.open("https://github.com/KelseyBeck");
+    }
+
+    function linkedin(){
+        window.open("https://www.linkedin.com/in/kelsey-beck/");
+      }
+
   return (
     <div id='main'>
         <div>
@@ -14,8 +22,8 @@ function App() {
                 <h3 id = 'career'>Software Developer</h3>
             </div>
             <div id='buttons'>
-                <button>Email</button>
-                <button>LinkedIn</button>
+                <button onClick={github}>Github</button>
+                <button onClick={linkedin}>LinkedIn</button>
             </div>
             <div id='about'>
                 <h3>About</h3>
